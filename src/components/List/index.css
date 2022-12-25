@@ -1,0 +1,18 @@
+.listContainer {
+  background-color: #c7ede630 !important;
+  border: 2px solid #991d21 !important;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s all ease-in-out;
+  height: 369px;
+  margin-bottom: 105px;
+  position: relative;
+}
+
+
+.listContainer:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 2px #bb070f;
+}

@@ -1,0 +1,19 @@
+.signInContainer {
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+  display: flex;
+  background: url("../../img/moviesBG.jpg") no-repeat center center fixed;
+}
+.cardContainer{
+    max-width: 400px;
+    width: 100%;
+}
+.notMemberLink{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}

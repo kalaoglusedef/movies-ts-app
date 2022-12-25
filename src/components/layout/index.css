@@ -1,0 +1,83 @@
+.listGroup {
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.listItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.listItemTitle {
+  color: #bb070f;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: end;
+}
+.listItemYear {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: end;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .listGroup {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  .searchContainer {
+    width: 100%;
+    padding: 0 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .listGroup {
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  .searchContainer {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .searchContainer {
+    width: 500px;
+  }
+  .listGroup {
+    position: absolute;
+    z-index: 999;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+}

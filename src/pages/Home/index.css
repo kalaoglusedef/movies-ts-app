@@ -1,0 +1,31 @@
+.homePageContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  width: 100%;
+  padding: 60px 36px;
+}
+
+@media only screen and (max-width: 767px) {
+  .homePageContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px 26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .homePageContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 26px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .homePageContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 26px;
+  }
+}

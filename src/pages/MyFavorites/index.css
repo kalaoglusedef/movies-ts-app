@@ -1,0 +1,49 @@
+.myFavoritesItemContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+.myFavoritesPage {
+  padding: 60px 36px;
+  display: flex;
+  flex-direction: column;
+  color: #bd050e;
+  gap: 20px;
+}
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .myFavoritesItemContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px 26px;
+  }
+  .myFavoritesPage {
+    padding: 20px 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .myFavoritesItemContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 26px;
+  }
+  .myFavoritesPage {
+    padding: 20px 8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .myFavoritesItemContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 26px;
+  }
+}
