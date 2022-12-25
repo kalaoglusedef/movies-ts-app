@@ -3,7 +3,7 @@ import { Outlet, useSearchParams } from "react-router-dom";
 import List from "../../components/List";
 import Movie from "../../models/Movie";
 import searchMovies from "../../services/omdbServices";
-import "./index.css"
+import "./index.css";
 const SearchDetail = () => {
   const [data, setData] = useState<Movie[]>([]);
   let [searchParams] = useSearchParams();
